@@ -1,8 +1,10 @@
 session = if ARGV[0] != 'phantomjs'
   require 'capybara'
+  puts 'using firefox'
   Capybara::Session.new(:selenium)
 else
   require 'capybara/poltergeist'
+  puts 'using phantomjs'
   Capybara::Session.new(:poltergeist)
 end
 
