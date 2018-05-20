@@ -13,6 +13,7 @@ class StatementsGetter
 
   def initialize
     Capybara.default_driver = :selenium
+    Capybara.default_max_wait_time = 10
   end
 
   def get_bmo_statements(login, password)
