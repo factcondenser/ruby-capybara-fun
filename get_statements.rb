@@ -48,16 +48,21 @@ class StatementsGetter
       click_link 'Online Statements'
     end
 
-    years = load_year_options.map(&:value)
-
-    for i in 0..years.length-1
-      load_year_options[i].select_option
-      within '#eStatements' do
-        within first('#listTableLinkBody') do
-          statements = find_all('a')
-          puts "#{years[i]}: #{statements.length} statement(s)"
+    accounts = load_account_options.map(&:text)
+    for i in 0..accounts.length-1
+      puts "Account: #{accounts[i]}"
+      load_account_options[i].select_option
+      years = load_year_options.map(&:value)
+      for j in 0..years.length-1
+        load_year_options[j].select_option
+        within '#eStatements' do
+          within first('#listTableLinkBody') do
+            statements = find_all('a')
+            puts "#{years[j]}: #{statements.length} statement(s)"
+          end
         end
       end
+      puts ""
     end
 
   #   return urls unless page.has_content?("Pages that include matching images")
