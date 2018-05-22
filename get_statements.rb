@@ -1,10 +1,12 @@
 require 'capybara/dsl'
+require 'selenium-webdriver'
 require 'yaml'
 require 'pry'
 
 config = YAML.load_file('config.yml')
 BMO_LOGIN = config['bmo']['login']
 BMO_PASSWORD = config['bmo']['password']
+BMO_SAVE_PATH = config['bmo']['save_path']
 HSBC_ME_LOGIN = config['hsbc_me']['login']
 HSBC_ME_PASSWORD = config['hsbc_me']['login']
 
@@ -12,12 +14,31 @@ class StatementsGetter
   include Capybara::DSL
 
   def initialize
-    Capybara.default_driver = :selenium
+    Capybara.register_driver :ffselenium do |app|
+      profile = Selenium::WebDriver::Firefox::Profile.from_name 'ffselenium'
+      # ("/Users/markcuipan/Library/Application Support/firefox/Profiles/744k648p.default")
+      # profile['browser.download.folderList'] = 2
+      # profile['browser.download.manager.showWhenStarting'] = false
+      # profile['browser.download.dir'] = BMO_SAVE_PATH
+      # profile['browser.helperApps.neverAsk.saveToDisk'] = 'application/pdf'
+      # profile['pdfjs.disabled'] = true
+      # # disable Acrobat plugin for previewing PDFs in Firefox (if installed)
+      # profile['plugin.scan.Acrobat'] = '99.0'
+      # profile['plugin.scan.plid.all'] = false
+      caps = Selenium::WebDriver::Remote::Capabilities.firefox(
+        {
+          firefox_profile: profile
+        }
+      )
+      # driver = Selenium::WebDriver.for :remote, desired_capabilities: capabilities
+      Capybara::Selenium::Driver.new(app, { browser: :firefox, desired_capabilities: caps })
+    end
+
+    Capybara.current_driver = :ffselenium
     Capybara.default_max_wait_time = 10
   end
 
   def get_bmo_statements(login, password)
-
     def load_account_options
       within '#eStatementForm' do
         return find_field('account').all('option')
@@ -29,8 +50,6 @@ class StatementsGetter
         return find_field('yearStatemement').all('option')
       end
     end
-
-    statements = []
 
     visit 'https://www.bmoharris.com/main/personal'
 
@@ -57,13 +76,18 @@ class StatementsGetter
         load_year_options[j].select_option
         within '#eStatements' do
           within first('#listTableLinkBody') do
-            statements = find_all('a')
+            statements = find_all('a').map(&:text)
             puts "#{years[j]}: #{statements.length} statement(s)"
+            for k in 0..statements.length-1
+              click_link statements[k]
+            end
           end
         end
       end
       puts ""
     end
+
+    puts 'DONE'
 
   #   return urls unless page.has_content?("Pages that include matching images")
   #
