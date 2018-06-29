@@ -1,0 +1,810 @@
+<!-- v3.0.2 - 2017.09.19 -->
+		<script type="text/javascript">
+var dcgif = "http://ad-resources.brandcdn.com/ad_assets/v147754/59fcd16173fb0_160x600_backup.png";  
+var dcgifSSL = "https://ad-resources.brandcdn.com/ad_assets/v147754/59fcd16173fb0_160x600_backup.png"; var vl_html_target = "_blank"; var isHD = "true"; var dccreativewidth = "160"; var dccreativeheight = "600"; var adSize = dccreativewidth + "x" + dccreativeheight;
+var parentURL = ""; var parentURLSSL = ""; var isGrandpaImage = "false"; var grandpaImg = ""; var grandpaImgSSL = ""; var playButtonImage = "";
+var fullscreenURL = "";  var fullscreenURLSSL = ""; var grandpaURL = ""; var grandpaURLSSL = ""; var coreJSURL = "http://7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.r9.cf1.rackcdn.com/core/Core.3.4.0.min.js"; var coreJSURLSSL = "https://ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com/core/Core.3.4.0.min.js"; var shareButtonsURL = "http://ad.vantagelocal.com/test/share-buttons/share-buttons.png"; var shareButtonsURLSSL = "https://7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com/test/share-buttons/share-buttons.png"; var rnd = Math.floor(Math.random()*10000000000); var clientID = "VL_929162" + "_" + rnd; var isTrackingOff = "false"; var vlid = "engvlx4ie0000000rlp"; var imp_p = true;
+var cmid = "115266";
+var aid = "3759";
+var pixel_ping_domain = "https://adservices.brandcdn.com";
+var creative_id = "929162";
+var ad_server_type = "3"; var isLiquidM = false;
+
+//============================================================
+//============================================================
+//============================================================
+var flashvars = {}; var params = {}; var forceHTML5 = "true"; params.wmode = "window"; params.bgcolor = ""; //============================================================
+//====================INSERT VARIABLES========================
+//============================================================
+var variables = eval('('+"{\n\t\"flashvars\": {\n\t\t\"showRichMenuAlways\": \"false\",\n\t\t\"closeButtonPadding\": \"15\",\n\t\t\"isHoverToClick\": \"true\",\n\t\t\"isReplay\": \"false\",\n\t\t\"isGrandpaImageAlways\": \"false\",\n\t\t\"hoverName\": \"shine\",\n\t\t\"isHoverToPlayVideo\": \"true\",\n\t\t\"isHoverToPlayVideoAllowedDuringFlashAnimation\": \"true\",\n\t\t\"isAutoLoadVideo\": \"false\",\n\t\t\"autoPlay\": \"true\",\n\t\t\"isPlayMuted\": \"false\",\n\t\t\"numAutoPlaySeconds\": \"5\",\n\t\t\"scaleToFillFullscreenBG\": \"false\",\n\t\t\"playButtonImageURL\": \"http:\/\/ad.vantagelocal.com\/buttons\/white_20x20_play.png\",\n\t\t\"playButtonImageURLSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/white_20x20_play.png\",\n\t\t\"mobilePlayButtonImageURL\": \"http:\/\/ad.vantagelocal.com\/buttons\/play_btn_white_mobile.png\",\n\t\t\"mobilePlayButtonImageURLSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/play_btn_white_mobile.png\",\n\t\t\"nonSslCountdownFlashAnimationBaseUrlForHoverToPlayVideo\": \"http:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.r9.cf1.rackcdn.com\/hover_countdown_animations\/autoload\",\n\t\t\"sslCountdownFlashAnimationBaseUrlForHoverToPlayVideo\": \"https:\/\/ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/hover_countdown_animations\/autoload\",\n\t\t\"playButton300_x\": \"285\",\n\t\t\"playButton300_y\": \"236\",\n\t\t\"playButton320_x\": \"298\",\n\t\t\"playButton320_y\": \"25\",\n\t\t\"playButton336_x\": \"321\",\n\t\t\"playButton336_y\": \"266\",\n\t\t\"playButton728_x\": \"713\",\n\t\t\"playButton728_y\": \"76\",\n\t\t\"playButton160_x\": \"95\",\n\t\t\"playButton160_y\": \"560\",\n\t\t\"video300_x\": \"1\",\n\t\t\"video300_y\": \"43\",\n\t\t\"video336_x\": \"1\",\n\t\t\"video336_y\": \"44\",\n\t\t\"video728_x\": \"260\",\n\t\t\"video728_y\": \"1\",\n\t\t\"video160_x\": \"1\",\n\t\t\"video160_y\": \"64\",\n\t\t\"videoWidth300\": \"298\",\n\t\t\"videoHeight300\": \"168\",\n\t\t\"videoWidth336\": \"334\",\n\t\t\"videoHeight336\": \"188\",\n\t\t\"videoWidth728\": \"158\",\n\t\t\"videoHeight728\": \"88\",\n\t\t\"videoWidth160\": \"158\",\n\t\t\"videoHeight160\": \"88\",\n\t\t\"fullscreenBackgroundColor\": \"252525\",\n\t\t\"forceFullscreenVideoWidth\": \"800\",\n\t\t\"forceFullscreenVideoHeight\": \"450\",\n\t\t\"enableFullscreenClickButton\": \"false\",\n\t\t\"showFullscreenClickButtonDuringAnimation\": \"true\",\n\t\t\"fullscreenClickButton300_x\": \"150\",\n\t\t\"fullscreenClickButton300_y\": \"221\",\n\t\t\"fullscreenClickButtonImageURL_300\": \"http:\/\/ad.vantagelocal.com\/buttons\/300_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonImageURLSSL_300\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/300_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonHoverImageURL_300\": \"http:\/\/ad.vantagelocal.com\/buttons\/300_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButtonHoverImageURLSSL_300\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/300_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButton336_x\": \"168\",\n\t\t\"fullscreenClickButton336_y\": \"251\",\n\t\t\"fullscreenClickButtonImageURL_336\": \"http:\/\/ad.vantagelocal.com\/buttons\/336_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonImageURLSSL_336\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/336_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonHoverImageURL_336\": \"http:\/\/ad.vantagelocal.com\/buttons\/336_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButtonHoverImageURLSSL_336\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/336_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButton728_x\": \"625.5\",\n\t\t\"fullscreenClickButton728_y\": \"45\",\n\t\t\"fullscreenClickButtonImageURL_728\": \"http:\/\/ad.vantagelocal.com\/buttons\/728_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonImageURLSSL_728\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/728_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonHoverImageURL_728\": \"http:\/\/ad.vantagelocal.com\/buttons\/728_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButtonHoverImageURLSSL_728\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/728_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButton160_x\": \"80\",\n\t\t\"fullscreenClickButton160_y\": \"571\",\n\t\t\"fullscreenClickButtonImageURL_160\": \"http:\/\/ad.vantagelocal.com\/buttons\/160_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonImageURLSSL_160\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/160_fullscreen_click.png\",\n\t\t\"fullscreenClickButtonHoverImageURL_160\": \"http:\/\/ad.vantagelocal.com\/buttons\/160_fullscreen_click_hover.png\",\n\t\t\"fullscreenClickButtonHoverImageURLSSL_160\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/160_fullscreen_click_hover.png\",\n\t\t\"timelineDownloadColor\": \"168DFF\",\n\t\t\"timelineBackgroundColor\": \"004993\",\n\t\t\"controlsColor\": \"888888\",\n\t\t\"controlsHighlightColor\": \"BBBBBB\",\n\t\t\"playerBackgroundColor\": \"000000\",\n\t\t\"useTimeline\": \"true\",\n\t\t\"useTimeDisplay\": \"false\",\n\t\t\"useSpeaker\": \"true\",\n\t\t\"useVolLevel\": \"false\",\n\t\t\"useFullScreen\": \"true\",\n\t\t\"useInfoButton\": \"false\",\n\t\t\"useQualityMenu\": \"false\",\n\t\t\"useTimeTooltip\": \"false\",\n\t\t\"usePlayPause\": \"true\",\n\t\t\"initialVol\": \"100\",\n\t\t\"playPauseOverVideo\": \"true\",\n\t\t\"bufferTime\": \"1\",\n\t\t\"belowVideo\": \"false\",\n\t\t\"use3Dstyle\": \"true\",\n\t\t\"controlsAlpha\": \"100\",\n\t\t\"playerBackgroundAlpha\": \"80\",\n\t\t\"useBackgroundGradient\": \"true\",\n\t\t\"normalTextColor\": \"777777\",\n\t\t\"highlightTextColor\": \"999999\",\n\t\t\"popupBackgroundColor\": \"000000\",\n\t\t\"popupBackgroundAlpha\": \"80\",\n\t\t\"controlsSeparation\": \"12\",\n\t\t\"controlsBarHeight\": \"25\",\n\t\t\"controlsScale\": \"1\",\n\t\t\"textControlsScale\": \"1\",\n\t\t\"timeTooltipScale\": \"1\",\n\t\t\"useControlsGradient\": \"true\",\n\t\t\"useLoadingRing\": \"true\",\n\t\t\"timelineDownloadAlpha\": \"100\",\n\t\t\"timelineBackgroundAlpha\": \"100\",\n\t\t\"volBarColor\": \"168DFF\",\n\t\t\"volBarAlpha\": \"100\",\n\t\t\"volBackgroundColor\": \"004993\",\n\t\t\"volBackgroundAlpha\": \"100\",\n\t\t\"timeTooltipColor\": \"666666\",\n\t\t\"timeTooltipTextColor\": \"DDDDDD\",\n\t\t\"tooltipShadow\": \"true\",\n\t\t\"logoWindow\": \"_blank\",\n\t\t\"logoPosition\": \"top-right\",\n\t\t\"logoXmargin\": \"12\",\n\t\t\"logoYmargin\": \"12\",\n\t\t\"logoAlpha\": \"100\",\n\t\t\"logoDisplayTime\": \"0\",\n\t\t\"descWidth\": \"220\",\n\t\t\"descPosition\": \"top-left\",\n\t\t\"descTextColor\": \"EEEEEE\",\n\t\t\"descXmargin\": \"12\",\n\t\t\"descYmargin\": \"12\",\n\t\t\"descTextSize\": \"14\",\n\t\t\"descBackgroundColor\": \"000000\",\n\t\t\"descBackgroundAlpha\": \"50\",\n\t\t\"isRichMediaMap\": \"false\",\n\t\t\"isAutoLoadMap\": \"false\",\n\t\t\"mapDefaultZoomLevel\": \"6\",\n\t\t\"mapButtonImageURL\": \"http:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.r9.cf1.rackcdn.com\/buttons\/white_20x20_map.png\",\n\t\t\"mapButtonImageURLSSL\": \"https:\/\/ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/white_20x20_map.png\",\n\t\t\"mapButton300_x\": \"258\",\n\t\t\"mapButton300_y\": \"236\",\n\t\t\"mapButton336_x\": \"294\",\n\t\t\"mapButton336_y\": \"266\",\n\t\t\"mapButton728_x\": \"686\",\n\t\t\"mapButton728_y\": \"76\",\n\t\t\"mapButton160_x\": \"70\",\n\t\t\"mapButton160_y\": \"560\",\n\t\t\"map300_x\": \"1\",\n\t\t\"map300_y\": \"1\",\n\t\t\"map336_x\": \"1\",\n\t\t\"map336_y\": \"1\",\n\t\t\"map728_x\": \"1\",\n\t\t\"map728_y\": \"1\",\n\t\t\"map160_x\": \"1\",\n\t\t\"map160_y\": \"1\",\n\t\t\"mapWidth300\": \"298\",\n\t\t\"mapHeight300\": \"248\",\n\t\t\"mapWidth336\": \"334\",\n\t\t\"mapHeight336\": \"278\",\n\t\t\"mapWidth728\": \"726\",\n\t\t\"mapHeight728\": \"88\",\n\t\t\"mapWidth160\": \"158\",\n\t\t\"mapHeight160\": \"598\",\n\t\t\"useShareButtons\": \"false\",\n\t\t\"isSocialAtStart\": \"false\",\n\t\t\"socialVideoOnly\": \"false\",\n\t\t\"hideSocialOnChildLoad\": \"false\",\n\t\t\"social300_x\": \"119\",\n\t\t\"social300_y\": \"225\",\n\t\t\"social336_x\": \"153\",\n\t\t\"social336_y\": \"255\",\n\t\t\"social728_x\": \"546\",\n\t\t\"social728_y\": \"65\",\n\t\t\"social160_x\": \"20\",\n\t\t\"social160_y\": \"576\",\n\t\t\"socialAddress\": \"http:\/\/ad.vantagelocal.com\/children\/social_child_136.swf\",\n\t\t\"socialAddressSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/children\/social_child_136.swf\",\n\t\t\"isSecondClickAlways\": \"false\",\n\t\t\"secondClick300_x\": \"6\",\n\t\t\"secondClick300_y\": \"216\",\n\t\t\"secondClick336_x\": \"6\",\n\t\t\"secondClick336_y\": \"246\",\n\t\t\"secondClick728_x\": \"6\",\n\t\t\"secondClick728_y\": \"55\",\n\t\t\"secondClick160_x\": \"30\",\n\t\t\"secondClick160_y\": \"510\",\n\t\t\"secondClickAddress\": \"http:\/\/ad.vantagelocal.com\/buttons\/facebook_dark.png\",\n\t\t\"secondClickAddressSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/facebook_dark.png\",\n\t\t\"isDebugMode\": \"false\",\n\t\t\"forceHTML5\": \"false\",\n\t\t\"isClickToCall\": \"false\",\n\t\t\"isKillASMBLclickTag\": \"false\",\n\t\t\"isKillGrandpaClickTag\": \"false\",\n\t\t\"animationClip\": \"holder\",\n\t\t\"parentClickTagPath\": \"button_holder\",\n\t\t\"hoverFolder\": \"http:\/\/ad.vantagelocal.com\/hovers\/hovers_external_html5_images\/\",\n\t\t\"hoverFolderSSL\": \"https:\/\/ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/hovers_external_html5_images\/\",\n\t\t\"videoChildAddress\": \"http:\/\/ad.vantagelocal.com\/children\/video_child_219.swf\",\n\t\t\"videoChildAddressSSL\": \"https:\/\/ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/children\/video_child_219.swf\",\n\t\t\"mapChildAddress\": \"http:\/\/ad.vantagelocal.com\/children\/map_child_101.swf\",\n\t\t\"mapChildAddressSSL\": \"https:\/\/ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/children\/map_child_101.swf\",\n\t\t\"emailChildAddress\": \"http:\/\/ad.vantagelocal.com\/children\/email_child_001.swf\",\n\t\t\"emailChildAddressSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/children\/email_child_001.swf\",\n\t\t\"trackingPixelAddressSSL\": \"https:\/\/81e2563e7a7102c7a523-4c272e1e114489a00a7c5f34206ea8d1.ssl.cf1.rackcdn.com\/px.gif\",\n\t\t\"trackingPixelAddress\": \"http:\/\/3100e55ffe038d736447-4c272e1e114489a00a7c5f34206ea8d1.r73.cf1.rackcdn.com\/px.gif\",\n\t\t\"isRichMediaEmail\": \"false\",\n\t\t\"emailButtonImageURL\": \"http:\/\/ad.vantagelocal.com\/buttons\/coupon_btn_1.png\",\n\t\t\"emailButtonImageURLSSL\": \"https:\/\/7629e0040b7aa73eaefb-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com\/buttons\/coupon_btn_1.png\",\n\t\t\"isAutoLoadEmail\": \"false\",\n\t\t\"emailButton300_x\": \"53\",\n\t\t\"emailButton300_y\": \"125\",\n\t\t\"emailButton336_x\": \"246\",\n\t\t\"emailButton336_y\": \"242\",\n\t\t\"emailButton728_x\": \"443\",\n\t\t\"emailButton728_y\": \"27\",\n\t\t\"emailButton160_x\": \"60\",\n\t\t\"emailButton160_y\": \"286\",\n\t\t\"email300_x\": \"0\",\n\t\t\"email300_y\": \"0\",\n\t\t\"email336_x\": \"0\",\n\t\t\"email336_y\": \"13\",\n\t\t\"email728_x\": \"607\",\n\t\t\"email728_y\": \"0\",\n\t\t\"email160_x\": \"0\",\n\t\t\"email160_y\": \"296\",\n\t\t\"emailWidth300\": \"300\",\n\t\t\"emailHeight300\": \"250\",\n\t\t\"emailWidth336\": \"336\",\n\t\t\"emailHeight336\": \"254\",\n\t\t\"emailWidth728\": \"119\",\n\t\t\"emailHeight728\": \"90\",\n\t\t\"emailWidth160\": \"160\",\n\t\t\"emailHeight160\": \"121\",\n\t\t\"xmlVersion\": \"200\"\n\t},\n\t\"files\": {\n\t\t\"special_file\": {\n\t\t\t\"filename\": \"undefined\",\n\t\t\t\"isWriteable\": \"undefined\",\n\t\t\t\"key\": \"undefined\",\n\t\t\t\"mimetype\": \"undefined\",\n\t\t\t\"size\": \"undefined\",\n\t\t\t\"url\": \"undefined\",\n\t\t\t\"width\": \"undefined\",\n\t\t\t\"height\": \"undefined\"\n\t\t},\n\t\t\"different_file\": {\n\t\t\t\"filename\": \"undefined\",\n\t\t\t\"isWriteable\": \"undefined\",\n\t\t\t\"key\": \"undefined\",\n\t\t\t\"mimetype\": \"undefined\",\n\t\t\t\"size\": \"undefined\",\n\t\t\t\"url\": \"undefined\",\n\t\t\t\"width\": \"undefined\",\n\t\t\t\"height\": \"undefined\"\n\t\t}\n\t}\n}"+')'); flashvars = variables.flashvars; flashvars.isLoader = "true"; //============================================================
+//============================================================
+if ( flashvars.forceHTML5 == "true" ) {
+	forceHTML5 = flashvars.forceHTML5; }
+//============================================================
+var isHTML5; isHTML5 = !!window.CanvasRenderingContext2D;
+var htmlURL = "http://ad-resources.brandcdn.com/ad_assets/v147754/160x600_59fcd161bbafd/160x600.html";
+var htmlSSLURL = "https://ad-resources.brandcdn.com/ad_assets/v147754/160x600_59fcd161bbafd/160x600.html";
+if (dccreativewidth == "320" && parentURL == "") {
+	forceHTML5 = "true"; }
+var noFlash;
+var thisURL = window.location.protocol + "://" + window.location.host + "/" + window.location.pathname;
+var is_uiwebview = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(navigator.userAgent);
+var is_safari_or_uiwebview = /(iPhone|iPod|iPad).*AppleWebKit/i.test(navigator.userAgent);
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1;
+var isChrome = ua.indexOf('chrome') > -1;
+if(isChrome && (isHTML5 || parentURL == "")) { 	forceHTML5 = "true";
+}
+var is_user_touching = false;
+var youTubeID;
+var margintop = 0; var marginleft = 0; //============================================================
+//============================================================
+//============================================================
+var fullscreenImageURL;
+var isImageOnlyAd;  		
+
+var dcnope;  var click_thr_url = "";
+var advurl = "https://www.zimbrickchevrolet.com/chevrolet-fleet-commercial-vehicles-wisconsin.html?utm_source=SpectrumReach&utm_medium=Display&utm_campaign=ZimbrickChevyFleet"; var dcadvurl = "";
+		switch (ad_server_type)
+		{
+			case "3":
+				click_thr_url = getcOrcanduURL("fas_c");
+				advurl = getNewLandingPage(click_thr_url,advurl);
+				advurl = encodeURIForFreqClickTracker(click_thr_url,null) + encodeURIForFreqClickTracker(click_thr_url,advurl); 				dcadvurl = escape(advurl);
+				break;
+			default:
+				advurl = '%c%u'; 				dcadvurl = escape('%c%u'); 				break;
+		}
+
+var dcminversion = 9;  var dcmaxversion = 9; var plugin = false; 
+var isSSL;
+var grandpaImage;			
+var parentAddress; var publisherURL = document.location;
+var video_x;
+var video_y;
+var loadRichImageAd; var youtubeURL;
+var isMobile;
+var clickCounter=0;
+var hoverCounter=0;
+var hover2Counter=0;
+var videoPlayCounter=0;
+var playTimeSeconds=0;
+var delayTime=1000;
+var buttonTimeout;
+var expandCounter=0;
+var isVideoPlaying=false;
+var engagementTimer;
+var videoDuration;
+var isVideo;
+//============================================================
+//============================================================
+//============================================================
+var alertFallback = true;
+if (typeof console === "undefined" || typeof console.log === "undefined") {
+	console = {};
+	if (alertFallback) {
+		console.log = function(msg) {
+			alert(msg);
+		};
+	} else {
+		console.log = function() {};
+	}
+}
+//============================================================
+//============================================================
+//============================================================
+//============================================================
+//============================================================
+if(parentURL == "") {
+	isImageOnlyAd = "true";
+} else {
+	isImageOnlyAd = "false";
+}
+if(parentURL == "" && grandpaImg == "") {
+	forceHTML5 = "true";
+}
+if ("https:" == document.location.protocol) {
+	isSSL = "true";
+	parentAddress = parentURLSSL;
+	grandpaImage = grandpaImgSSL;
+	fullscreenImageURL = fullscreenURLSSL;
+	if (isHD == "true" && dccreativewidth != "320"){ 		dcnope = grandpaURLSSL;
+	} else {
+		dcnope = parentAddress;
+		isHD = "false";
+	}
+} else {
+	isSSL = "false";
+	parentAddress = parentURL;
+	grandpaImage = grandpaImg;
+	fullscreenImageURL = fullscreenURL;
+	if (isHD == "true" && dccreativewidth != "320"){ 		dcnope = grandpaURL;
+	} else {
+		dcnope = parentAddress;
+		isHD = "false";
+	}
+}
+if (isHD != true) { 	flashvars.parentURL = parentAddress+'?clickTag='+dcadvurl;	
+} else {
+	flashvars.parentURL = parentAddress;
+}
+flashvars.isSSL = isSSL;
+flashvars.adSize = adSize;
+flashvars.grandpaImage = grandpaImage;
+flashvars.publisherURL = publisherURL;
+flashvars.clientID = clientID;
+flashvars.isHD = isHD;
+flashvars.isGrandpaImage = isGrandpaImage;
+flashvars.fullscreenImageURL = fullscreenImageURL;
+flashvars.isTrackingOff = isTrackingOff;
+flashvars.isImageOnlyAd = isImageOnlyAd;
+
+
+params.movie = dcnope +'?clickTag='+dcadvurl;
+params.quality = "autohigh"; params.allowScriptAccess = "always"; params.allowFullScreen = "true"; params.allowNetworking = "all"; 
+var attributes = {};
+attributes.id = clientID;
+attributes.vlid = vlid;
+
+var divID = "div-"+clientID; flashvars.isDebugMode = getBoolean(flashvars.isDebugMode);
+if (flashvars.isDebugMode == true){
+	console.log("JavaScript: dcnope: " + dcnope);
+}
+
+var dclkjstag = (('%eenv!'!="j")&&(typeof dclkFlashWrite!="undefined")) ? false : true;
+var dcflashtagstring = '<div class="vantagelocal" style="position:relative;width:' + dccreativewidth + 'px;height:' + dccreativeheight + 'px;"><div class="buttons" style="z-index:3; position:absolute;"><div id="playbutton-'+clientID+'"></div></div><span id="clicktag-'+clientID+'"></span><div id='+divID+'></div></div>';
+
+flashvars.dynamic_geo = '%g';
+ 	
+function loadTheParent(id) {   
+	if (flashvars.isDebugMode == true){
+		console.log("JavaScript: loadTheParent Called in javascript!");
+	}
+	var flashObj = document.getElementById(id);
+	if (flashvars.isDebugMode == true){
+		console.log("JavaScript: " + flashObj);
+	}
+	if (isImageOnlyAd != "true" && noFlash != true) {
+		flashObj.loadParentFromJS();
+	}
+}
+if (isHD == "true"){
+	if (flashvars.isDebugMode == true){
+		console.log("JavaScript: setTimeout: 3sec in javascript!");
+	}
+	window.setTimeout("rudeLoad()", 3000);
+}
+function rudeLoad() {
+	if (noFlash != true && isHD == "true") {
+		if (flashvars.isDebugMode == true){
+			console.log("JavaScript: rudeLoad Called in javascript!");
+		}
+		loadTheParent(clientID);
+	}
+}
+function receiveReadyFromAS3(id) {
+		window.onload=loadTheParent(id);
+}
+function receiveTextFromAS3(Txt) {
+	if (flashvars.isDebugMode == true){
+		console.log(Txt);
+	}
+}
+function getFlashVer() {
+	var i,a,o,p,s="Shockwave",f="Flash",t=" 2.0",u=s+" "+f,v=s+f+".",rSW=RegExp("^"+u+" (\\d+)");
+	if((o=navigator.plugins)&&(p=o[u]||o[u+t])&&(a=p.description.match(rSW)))return a[1];
+	else if(!!(window.ActiveXObject))for(i=12;i>0;i--)try{if(!!(new ActiveXObject(v+v+i)))return i}catch(e){}
+	return 0;
+}
+if ((dcminversion<=getFlashVer()) && !dclkjstag && forceHTML5 != "true"){
+	dclkFlashWrite(dcflashtagstring);
+	if (dccreativewidth == "320") {
+		noFlash = false;
+   		setupHTML5();	
+	}
+} else if ((dcminversion<=getFlashVer()) && dclkjstag && forceHTML5 != "true") {
+	document.write(dcflashtagstring);
+	noFlash = false;
+	if (dccreativewidth == "320") {
+   		setupHTML5();	
+	}
+} else if (isHTML5 == true) {
+	noFlash = true;
+	setupHTML5();
+} else if (isHTML5 != true && grandpaImage != ""){
+	noFlash = true;
+	loadRichImageAd = true;
+	setupHTML5();
+} else {
+	noFlash = true;
+		if ( getBoolean( flashvars.isClickToCall ) && flashvars.clickToCallNumber != "" && adSize == "320x50" ) {
+			switch (ad_server_type)
+			{
+				case "3":
+					advurl = getcOrcanduURL("fas_c") + 'tel:'+ flashvars.clickToCallNumber;
+					break;
+				default:
+					advurl = ''+'%c'+'tel:'+ flashvars.clickToCallNumber+'';
+					break;
+			}
+	}
+	document.write('<a onmouseover="onHoverMaster();" target="'+vl_html_target+'" href="'+advurl+'"><img src="' + (isSSL == "true" ? dcgifSSL : dcgif) + '" border=0></a>');
+}
+//============================================================
+//============================================================
+//============================================================
+function setupHTML5() {
+	if (flashvars.isDebugMode == true) {
+	    console.log("JavaScript: setupHTML5: adSize: " + adSize);
+	}
+		if(isAndroid || is_uiwebview || is_safari_or_uiwebview) {
+		flashvars.autoPlay = false;
+		isMobile = true;
+	}
+		if (isSSL == "true") {
+		playButtonImage = flashvars.playButtonImageURLSSL;
+	} else {
+		playButtonImage = flashvars.playButtonImageURL;
+	}
+		switch(adSize) {
+		case "300x250":
+  			video_x = flashvars.video300_x;
+  			video_y = flashvars.video300_y;
+  			playButton_x = flashvars.playButton300_x;
+  			playButton_y = flashvars.playButton300_y;
+  			videoWidth = flashvars.videoWidth300;
+  			videoHeight = flashvars.videoHeight300;
+			break;
+		case "320x50":
+			video_x = flashvars.playButton320_x;	//xxx
+			video_y = flashvars.playButton320_y;	//xxx
+						flashvars.autoPlay = false;
+			flashvars.isAutoLoadVideo = false;
+  			playButton_x = flashvars.playButton320_x;
+  			playButton_y = flashvars.playButton320_y;
+  			  			if ( getBoolean( flashvars.isClickToCall ) && flashvars.clickToCallNumber != "" ) {
+					switch (ad_server_type)
+					{
+						case "3":
+							advurl = getcOrcanduURL("fas_c") + 'tel:'+ flashvars.clickToCallNumber;
+							break;
+						default:
+							advurl = ''+'%c'+'tel:'+ flashvars.clickToCallNumber+'';
+							break;
+					}
+			}
+			  			if (isSSL == "true") {
+  				playButtonImage = flashvars.mobilePlayButtonImageURLSSL;
+  			} else {
+  				playButtonImage = flashvars.mobilePlayButtonImageURL;
+  			}
+			break;
+		case "336x280":
+  			video_x = flashvars.video336_x;
+  			video_y = flashvars.video336_y;
+  			playButton_x = flashvars.playButton336_x;
+  			playButton_y = flashvars.playButton336_y;
+  			videoWidth = flashvars.videoWidth336;
+  			videoHeight = flashvars.videoHeight336;
+			break;
+		case "728x90":
+  			video_x = flashvars.video728_x;
+  			video_y = flashvars.video728_y;
+  			playButton_x = flashvars.playButton728_x;
+  			playButton_y = flashvars.playButton728_y;
+  			videoWidth = flashvars.videoWidth728;
+  			videoHeight = flashvars.videoHeight728;
+			break;
+		case "160x600":
+  			video_x = flashvars.video160_x;
+  			video_y = flashvars.video160_y;
+  			playButton_x = flashvars.playButton160_x;
+  			playButton_y = flashvars.playButton160_y;
+  			videoWidth = flashvars.videoWidth160;
+  			videoHeight = flashvars.videoHeight160;
+			break;
+		default:
+			if (flashvars.isDebugMode == true) {
+        		console.log("JavaScript: setupHTML5: * * * ERROR * * * : Default Case Loaded: " );
+			}
+			video_x = "1";
+  			video_y = "1";
+  			playButton_x = dccreativewidth / 2;
+  			playButton_y = dccreativeheight / 2;
+  			videoWidth = "158";
+  			videoHeight = "88";
+	}
+		if (noFlash == true && loadRichImageAd != true) {
+		//HTML5 anime all
+		loadHTML5();
+	}
+		else if (noFlash != true && dccreativewidth == "320") {
+		//HTML5 anime mobile only
+		document.getElementById('clicktag-'+clientID).innerHTML = '<a href="' + advurl + '" target="'+vl_html_target+'" onmouseover="onHoverMaster();" onmouseout="onOutMaster();"><span id="clicktag" style="width:100%;height:100%;position:absolute;left:0px;top:0px;z-index:1;background-color:rgba(0,0,0,0)"></span></a>';
+	}
+		else if (loadRichImageAd == true) {
+		//rich loader image
+		document.write('<div id="'+ vlid +'-'+ clientID +'" class="vantagelocal" style="position:relative;width:' + dccreativewidth + 'px;height:' + dccreativeheight + 'px;" onmouseover="onHoverMaster();" onmouseout="onOutMaster();"><div class="buttons" style="z-index:3; position:absolute;"><div id="playbutton-'+clientID+'"></div></div><div style="position:absolute;left:' + video_x + 'px;top:' + video_y + 'px;z-index:2;" class="video-holder" id="holder"><div id="player-'+ clientID +'"></div></div><a target="'+vl_html_target+'" href="'+ advurl +'"><img src="' + grandpaImage + '" border=0><span id="clicktag" style="width:100%;height:100%;position:absolute;left:0px;top:0px;z-index:1;background-color:rgba(0,0,0,0)"></span></a></div>');
+				animationComplete();
+	}
+}
+function loadHTML5() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: loadHTML5: generic");
+	}
+	document.write('<div id="'+ vlid +'-'+ clientID +'"class="vantagelocal" style="position:relative;width:' + dccreativewidth + 'px;height:' + dccreativeheight + 'px;background-color:#FFFFFF" onmouseover="onHoverMaster();" onmouseout="onOutMaster();"><div class="buttons" style="z-index:3; position:absolute;"><div id="playbutton-'+clientID+'"></div></div><div style="position:absolute;left:' + video_x + 'px;top:' + video_y + 'px;z-index:2;" class="video-holder" id="holder"><div id="player-'+ clientID +'"></div></div><a href="' + advurl + '" target="'+vl_html_target+'"><span id="clicktag" style="width:100%;height:100%;position:absolute;left:0px;top:0px;z-index:1;background-color:rgba(0,0,0,0)"></span></a><iframe src="' + (isSSL == 'true' ? htmlSSLURL : htmlURL) + '" width="' + dccreativewidth + '" height="' + dccreativeheight + '" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" allowfullscreen></iframe></div>');
+	animationComplete();}
+function animationComplete() {
+	if ((noFlash == true || dccreativewidth == "320") && typeof flashvars.videoURL !== 'undefined') {
+		youtubeURL = flashvars.videoURL;
+		if (flashvars.isDebugMode == true) {
+			console.log("JavaScript: animationComplete: isAutoLoadVideo: " + getBoolean(flashvars.isAutoLoadVideo) + " isYoutubeFile: " + isYoutubeFile(flashvars.videoURL));
+		}
+				if (isYoutubeFile(flashvars.videoURL) == true && getBoolean(flashvars.isAutoLoadVideo) == true) {
+			isVideo = true;
+			if (flashvars.isDebugMode == true) {
+				console.log("JavaScript: animationComplete: Call to Load Video: ");
+			}
+			loadVideo();
+					} else if (isYoutubeFile(flashvars.videoURL) == true && getBoolean(flashvars.isAutoLoadVideo) == false) {
+			if (flashvars.isDebugMode == true) {
+				console.log("JavaScript: animationComplete: Loading Play Button: margintop: " + margintop + " marginleft: " + marginleft);
+			}
+			isVideo = true;
+			var buttonImage = new Image();
+			buttonImage.name = buttonImage;
+			buttonImage.onload = adjustImagePosition;
+			buttonImage.src = playButtonImage;
+		}
+	}
+}
+function adjustImagePosition() {
+	margintop = -this.height/2;
+	marginleft = -this.width/2;
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: adjustImagePosition: margintop: " + margintop + " marginleft: " + marginleft);
+	}
+	if ( isMobile != true && adSize != "320x50") {
+		document.getElementById('playbutton-'+clientID).innerHTML = '<div id="vl-playbtn" style="position:absolute;cursor:pointer;left:' + playButton_x + 'px;top:' + playButton_y + 'px;margin-top:'+ margintop +'px;margin-left:'+ marginleft +'px;"><img src="' + playButtonImage + '" onclick="clickPlay();"></div>';
+	} else {
+		document.getElementById('playbutton-'+clientID).innerHTML = '<div id="vl-playbtn" style="position:absolute;left:' + playButton_x + 'px;top:' + playButton_y + 'px;margin-top:'+ margintop +'px;margin-left:'+ marginleft +'px;"><a href="' + youtubeURL + '" target="_blank"><img src="' + playButtonImage + '"></a></div>';
+	}
+}
+//============================================================
+//============================================================
+//============================================================
+function clickHandler( tag ) {
+	if ( isVideoPlaying == true ) {
+		videoPause();
+	}
+	clickCounter++;
+	loadTrackingPixel( "mcl" + "&cnt=" + clickCounter + "&tag=" + tag );
+}
+function loadTrackingPixel(t) {
+	if (flashvars.isDebugMode == true) {
+		console.log( "Vantage: loadTrackingPixel: type: " + t );
+	}
+	if ( isTrackingOff != "true" ) {
+		var pixelURL = new Image();
+		if ( isSSL == "true" ) {
+			pixelURL.src = flashvars.trackingPixelAddressSSL + "?clientid=" + flashvars.clientID + "&e=" + t;
+		} else {
+			pixelURL.src = flashvars.trackingPixelAddress + "?clientid=" + flashvars.clientID + "&e=" + t;
+		}
+	}
+}
+function onHoverMaster() {
+	if (!is_user_touching)
+	{
+		hoverCounter++;
+		loadTrackingPixel("hov" + "&cnt=" + hoverCounter);
+		is2secHover = true; 		if(is2secHover == true) {
+			clearTimeout( buttonTimeout );
+			buttonTimeout = setTimeout( hover2Seconds, 2000 );
+		}
+	}
+}
+function onOutMaster() {
+	clearTimeout( buttonTimeout );
+	is2secHover = false;
+}
+function hover2Seconds() {
+	hover2Counter++;
+	loadTrackingPixel( "hv2" + "&cnt=" + hover2Counter );
+}
+function videoPlayTime() {
+	playTimeSeconds++;
+	loadTrackingPixel("pts" + "&cnt=" + playTimeSeconds);
+}
+function videoMidpoint(){
+	loadTrackingPixel("mid");
+}
+//============================================================
+//============================================================
+//============================================================
+function loadVideo() {
+	if (flashvars.isDebugMode == true) {
+        console.log("JavaScript: loadVideo: ");
+    }
+	var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
+function clickPlay() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: clickPlay: ");
+	}
+	loadVideo();
+		if (getBoolean(flashvars.showRichMenuAlways) != true) {
+		document.getElementById('vl-playbtn').innerHTML="";
+	}
+	videoPlayCounter++;
+	loadTrackingPixel("vpc" + "&cnt=" + videoPlayCounter);
+	loadTrackingPixel("cpv");
+}
+function replayVideo() {
+	if (flashvars.isDebugMode == true) {
+	        console.log("JavaScript: replayVideo: ");
+	}
+	onYouTubeIframeAPIReady();
+		if (getBoolean(flashvars.showRichMenuAlways) != true) {
+		document.getElementById('vl-playbtn').innerHTML="";
+	}
+	videoPlayCounter++;
+	loadTrackingPixel("vpc" + "&cnt=" + videoPlayCounter);
+	loadTrackingPixel("cpv");
+}
+function isYoutubeFile(vidURL) {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: isYoutubeFile: vidURL: " +vidURL);
+	}
+	var videoURL;
+	if (vidURL.toLowerCase().indexOf("http://www.youtube.com/v/") == 0) {
+		youTubeID = vidURL.substr(25, 11);
+		if (isSSL == "true") {
+			videoURL = "https://www.youtube.com/v/" + youTubeID;
+		} else {
+			videoURL = "http://www.youtube.com/v/" + youTubeID;
+		}
+		return true;
+	}
+	if (vidURL.toLowerCase().indexOf("http://www.youtube.com/watch?v=") == 0) {
+		youTubeID = vidURL.substr(31, 11);
+		if (isSSL == "true") {
+			videoURL = "https://www.youtube.com/v/" + youTubeID;
+		} else {
+			videoURL = "http://www.youtube.com/v/" + youTubeID;
+		}
+		return true;
+	}
+	if (vidURL.toLowerCase().indexOf("https://www.youtube.com/v/") == 0) {
+		youTubeID = vidURL.substr(26, 11);
+		if (isSSL == "true") {
+			videoURL = "https://www.youtube.com/v/" + youTubeID;
+		} else {
+			videoURL = "http://www.youtube.com/v/" + youTubeID;
+		}
+		return true;
+	}
+	if (vidURL.toLowerCase().indexOf("https://www.youtube.com/watch?v=") == 0) {
+		youTubeID = vidURL.substr(32, 11);
+		if (isSSL == "true") {
+			videoURL = "https://www.youtube.com/v/" + youTubeID;
+		} else {
+			videoURL = "http://www.youtube.com/v/" + youTubeID;
+		}
+		return true;
+	}
+	return false;
+}
+var player;
+function onYouTubeIframeAPIReady() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: onYouTubeIframeAPIReady: youTubeID: " + youTubeID);
+	}
+	player = new YT.Player('player-'+ clientID, {
+		height: videoHeight,
+		width: videoWidth,
+		videoId: youTubeID,
+		playerVars: { 
+			'enablejsapi': 1, 
+			'modestbranding': 0,
+			'rel':0,
+			'autoplay': getBoolean(flashvars.autoPlay),
+			'autohide': 1,
+			'iv_load_policy': 3,
+			'origin': thisURL,
+			'showinfo': 0
+		},
+		events: {
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange
+		}
+	});
+}
+function onPlayerReady(event) {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: onPlayerReady: ");
+	}
+	if (getBoolean(flashvars.autoPlay) == true) {
+		event.target.playVideo();
+	}
+}
+isPaused = false; function onPlayerStateChange(event) {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: onPlayerStateChange: ");
+	}
+	if (event.data == YT.PlayerState.PLAYING) {
+		videoDuration = player.getDuration();
+		isVideoPlaying = true;
+		engagementTimer = setInterval(secondCounter, 1000);
+	}
+	if (event.data == YT.PlayerState.PLAYING && !isPaused && getBoolean(flashvars.autoPlay) == true && getBoolean(flashvars.isPlayMuted) == true ) {
+		var sec = parseInt(flashvars.numAutoPlaySeconds) * 1000;
+		if (flashvars.isDebugMode == true) {
+			console.log("JavaScript: onPlayerStateChange: autoPlay: " + getBoolean(flashvars.autoPlay) + " sec: " + sec);
+		}
+		setTimeout(videoStop, sec);
+		videoMute();
+		isPaused = true;
+	}
+	if (event.data == YT.PlayerState.ENDED) {
+		if (getBoolean(flashvars.isAutoLoadVideo) == false) {
+			document.getElementById('vl-playbtn').innerHTML='<img src="' + playButtonImage + '" onclick="replayVideo();">';
+			removeVideo();
+		}
+		isVideoPlaying = false;
+		loadTrackingPixel("vdc");
+		clearInterval(engagementTimer);
+	}
+	if (event.data == YT.PlayerState.PAUSED) {
+		clearInterval(engagementTimer);
+	}
+}
+function secondCounter() {
+	videoPlayTime();
+	var currentTime = player.getCurrentTime();
+	videoPlayTime();
+	if (Math.round(currentTime) == Math.round(videoDuration/2)) {
+		videoMidpoint();
+	}
+}
+function videoStop() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: videoStop: ");
+	}
+	player.seekTo(0);
+	videoUnMute();
+	player.stopVideo();
+	clearInterval(engagementTimer);
+}
+function videoPause() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: videoPause: ");
+	}
+	player.pauseVideo();
+	clearInterval(engagementTimer);
+}
+function videoMute() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: videoMute: ");
+	}
+	player.mute();
+}
+function videoUnMute() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: videoUnMute: ");
+	}
+	player.unMute();
+}
+function removeVideo() {
+	if (flashvars.isDebugMode == true) {
+		console.log("JavaScript: removeVideo: ");
+	}
+	player.destroy();
+	clearInterval(engagementTimer);
+}
+function getBoolean(value) {
+	if (value == false) {
+		return false;
+	}
+	if (value == true) {
+		return true;
+	}
+	if (value == "true") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+document.write('<script src="' + (isSSL ? coreJSURLSSL : coreJSURL) + '"><\/script>');
+function getParameterByName(name)
+{
+	if(typeof window.location != "undefined")
+	{
+		var url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+		    results = regex.exec(url);
+		if (!results) return '';
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+}
+function getcOrcanduURL(param_name)
+{
+	var corcandu_url = getParameterByName(param_name);	
+	if (corcandu_url == "")
+	{
+		if (param_name == "fas_c" && typeof(fas_c_for_js) != "undefined")
+		{
+			corcandu_url = unescape(fas_c_for_js);
+		}
+		else if(param_name == "fas_candu" && typeof(fas_candu_for_js) != "undefined")
+		{
+			corcandu_url = unescape(fas_candu_for_js);
+		}
+	}	
+	return corcandu_url;
+}
+function generateUUID()
+{
+	var d = new Date().getTime();
+	
+        if (window.performance && typeof window.performance.now === "function"){
+		d += performance.now();; //use high-precision timer if available
+	}	
+	var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+		var r = (d + Math.random()*16)%16 | 0;
+		d = Math.floor(d/16);
+		return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+	});	
+	return uuid;
+}
+function getCookie(cname)
+{
+	var name = cname + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0; i<ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1);
+		if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+	}
+	return "";
+}
+function setCookie(cname, cvalue, exdays)
+{
+	var d = new Date();
+	d.setTime(d.getTime() + (exdays*24*60*60*1000));
+	var expires = "expires="+d.toUTCString();
+	document.cookie = cname + "=" + cvalue + "; " + expires +"; path=/";
+}
+function addLoadEvent(o) {
+	var n = window.onload;
+	"function" != typeof window.onload ? window.onload = o : window.onload = function() {
+	    n && n(), o()
+	}
+}
+function encodeURIForFreqClickTracker(url,lp){
+        if (url.indexOf("turl=") != -1 && url.indexOf("prctr=liquidm") != -1){
+				if (lp == null){
+			 
+			var urlComponent = url.substring(0,url.indexOf("turl="));
+			var uriComponent = url.substring(url.indexOf("turl="));
+			uriComponent = encodeURIComponent(uriComponent);
+			urlComponent = urlComponent  + uriComponent;
+			urlComponent = urlComponent.replace("turl%3D","turl=")
+			return urlComponent;
+		}else{
+			 
+			if (lp.indexOf("?") != -1){
+				var lpurl = lp.substring(0, lp.indexOf("?"));
+				var lpqs = lp.substring(lp.indexOf("?") + 1);
+				lpurl = lpurl + "%3F" + encodeURIComponent(encodeURIComponent(lpqs));
+				return lpurl;				
+			}else{
+				return lp;
+			}			
+		}		
+        }else if (lp == null){
+		return url;
+        }else{
+		return lp;
+	}
+}
+function getNewLandingPage(url, old_lp){	
+	if (url.indexOf("new_lp=") != -1 && url.indexOf("prctr=liquidm") != -1)
+	{
+		isLiquidM = true;
+				var new_lp = url.substring(url.indexOf("new_lp=") + 7);
+		new_lp = new_lp.substring(0, new_lp.indexOf("&"));
+		if (isValidUrl(new_lp)) return new_lp; else return old_lp;
+	}
+	else
+	{
+		return old_lp;
+	}
+}
+function isValidUrl(s) {
+	var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
+	return regexp.test(s);
+}
+addLoadEvent(function(){
+	if (document.body != null && ((aid != '' && cmid != '') || isLiquidM) && isTrackingOff != "true" && imp_p)
+	{
+		var brandcdn_uid = "";
+		if(ad_server_type == '3')
+		{
+			brandcdn_uid = getCookie('brandcdn_uid');
+			if (typeof(brandcdn_uid) == 'undefined' || brandcdn_uid == '')
+			{
+				brandcdn_uid = generateUUID();
+				setCookie('brandcdn_uid',brandcdn_uid,365);
+			}
+		}
+		var other_params = '';
+			var impression_parameters = ["gfid","an","ad","dmk","dmd","dos","dosv","gla","glo","puid","pun","pud","sd","sid","sn","sp","ts","ug","dotid"];
+			var key, value;
+			for(var i = 0; i < impression_parameters.length; i++)
+			{
+				key = impression_parameters[i];
+					value = getParameterByName(impression_parameters[i]);
+				if(typeof value !== 'undefined' && value !== '')
+				{
+					other_params += '&' + encodeURIComponent(key) + '=' + encodeURIComponent(value);
+				}
+			}
+		var skp = isLiquidM ? "&skp=true" : "";
+		var m = getParameterByName("fas_m");var r = getParameterByName("fas_r");
+		var iframe_element = document.createElement('iframe');
+		var oid = Math.floor(Math.random() * 10000 * 10000);
+		iframe_element.src = pixel_ping_domain+'/pixel/imp?aid='+aid+'&cid='+cmid+'&imp_ck='+brandcdn_uid+"&m="+m+"&r="+r+"&crid="+creative_id+'&oid='+oid+skp+other_params;
+		iframe_element.style.display = 'none';
+		document.body.appendChild(iframe_element);
+	}
+});
+addLoadEvent(function(){
+	if(document.body.addEventListener)
+	{
+		var touch_timeout = 0;
+		document.body.addEventListener("touchstart", function() {
+			is_user_touching = true;
+			clearTimeout(touch_timeout);
+		});
+		function finish_touch()
+		{
+			touch_timeout = setTimeout(function() {
+				is_user_touching = false;
+			}, 500);
+		};
+		document.body.addEventListener("touchend", finish_touch);
+		document.body.addEventListener("touchcancel", finish_touch);
+	}
+});
+		</script>
+		<noscript><a target="_blank" href="%c%u"><img src="https://ad-resources.brandcdn.com/ad_assets/v147754/59fcd16173fb0_160x600_backup.png" border=0></a></noscript>
+¸	Ñ’“      [“‘[““?	$[Î  ½    :https://ads.brandcdn.com/html/172899_160x600_5a7e10ebbd0af.html?fas_c=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3D27db73b0-8f42-4f8c-ac92-95fe1537b54d%26ag%3Dnuga5mc%26sfe%3Dd3b138f%26sig%3DJAtT6fNF-qCUe_0HBnKlK32oQEiMvhF9Sea44GEdyTQ.%26crid%3Dgxm1muxv%26cf%3D270723%26fq%3D0%26td_s%3Dsmallbusiness.chron.com%26rcats%3D5rf%26mcat%3D%26mste%3Dsmallbusiness.chron.com%26mfld%3D4%26mssi%3Dmqlopv4wj6k4%26mfsi%3Dl10cjlalzm%26sv%3Dopenx%26uhow%3D46%26agsa%3D%26rgco%3DUnited%2520States%26rgre%3DWisconsin%26rgme%3D669%26rgci%3DMadison%26rgz%3D53726%26dt%3DPC%26osf%3DOSX%26os%3DOther%26br%3DFirefox%26svpid%3D539723244%26rlangs%3D01%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3D%26crrelr%3D%26npt%3D%26svscid%3D539723261%26mk%3Ddesktop%26mdl%3Dbrowser%26adpt%3Dnopx%26ipl%3D614213967%26atst%3D1%26r%3D&oid=36248882&fas_m=tpc.googlesyndication.com&fas_r=smallbusiness.chron.com necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 42145
+Date: Tue, 22 May 2018 03:50:43 GMT
+Last-Modified: Fri, 09 Feb 2018 21:21:48 GMT
+ETag: "3b3278fdbe0e74a15af7c743eca83538"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 551f2ae9ee9a1bff4c2815294113d1f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N0XU1IpnmEY3JHJTIgFtuhpwoP1bojUVhUzV4fKkG0EnZWZ6IvPPTA==
+ original-response-headers Content-Type: text/html
+Content-Length: 42145
+Connection: keep-alive
+Date: Tue, 22 May 2018 03:50:43 GMT
+Last-Modified: Fri, 09 Feb 2018 21:21:48 GMT
+ETag: "3b3278fdbe0e74a15af7c743eca83538"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Miss from cloudfront
+Via: 1.1 551f2ae9ee9a1bff4c2815294113d1f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N0XU1IpnmEY3JHJTIgFtuhpwoP1bojUVhUzV4fKkG0EnZWZ6IvPPTA==
+ uncompressed-len 0 net-response-time-onstart 1489 net-response-time-onstop 1515 predictor::resource-count 2 predictor::https://ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com/core/Core.3.4.0.min.js 1,1,1526961041,4096 predictor::https://ed18a41e851d21bd3d3b-2105a7941d639194e8ba5253efec10c9.ssl.cf1.rackcdn.com/hovers_external_html5_images/shine_160x600.png 1,1,1526961041,4097   ¤¡
