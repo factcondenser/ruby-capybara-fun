@@ -1,6 +1,4 @@
-require 'timeout'
 require 'capybara/dsl'
-require 'selenium-webdriver'
 require 'capybara'
 
 class FakerRaker
