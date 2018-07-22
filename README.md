@@ -6,6 +6,6 @@ To use Selenium with Firefox, you'll need to install [Mozilla geckodriver](https
 
 ## Usage
 ```sh
-# Prints all methods for faker
-get_gem_methods.rb faker  
+# Returns count of Google Image results for a given image
+get_image_urls.rb [image_url]
 ```
